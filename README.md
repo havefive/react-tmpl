@@ -12,11 +12,11 @@ React Template project with reactjs,antd,Material-UI,and next.js
 ```
 npm init 
 ```
-#### 2. Install Modules
+#### 2. Install modules
 ```
 npm install next antd Material-UI --save
 ```
-#### 3. Add Pages
+#### 3. Add pages
 ```
 mkdir pages
 touch index.js:
@@ -27,7 +27,7 @@ export default () => (
   <div>Welcome to next.js!</div>
 )
 ```
-### 4. Add Cli
+### 4. Add cli
 ```
 vi package.json
 add:
@@ -39,11 +39,11 @@ add:
   }
   
 ```
-### 4.Start Develop
+### 5.Start development
 ```
 npm run dev
 ```
-### 5.Build product
+### 6.Build product
 ```
 npm run build
 ```

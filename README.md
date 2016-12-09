@@ -39,8 +39,7 @@ add:
     "dev": "next",
     "build": "next build",
     "start": "next start"
-  }
-  
+}
 ```
 #### 5.Start development
 ```

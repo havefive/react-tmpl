@@ -30,7 +30,7 @@ export default () => (
   <div>Welcome to next.js!</div>
 )
 ```
-### 4. Add cli
+#### 4. Add cli
 ```
 vi package.json
 add:
@@ -42,15 +42,15 @@ add:
   }
   
 ```
-### 5.Start development
+#### 5.Start development
 ```
 npm run dev
 ```
-### 6.Build product
+#### 6.Build product
 ```
 npm run build
 ```
-### 7.Review product
+#### 7.Review product
 ```
 npm run start
 ```

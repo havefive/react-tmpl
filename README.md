@@ -1,5 +1,8 @@
 # react-tmpl
 React Template project with reactjs,antd,Material-UI,and next.js
+
+react 项目模版，一个服务端渲染的快速工程化实践，无需配置路由。
+
 ## Modules:
 
 #### 1. Router:next.js

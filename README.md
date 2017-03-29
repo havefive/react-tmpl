@@ -5,7 +5,7 @@ React Template project with reactjs,antd,Material-UI,and next.js
 基于react项目开发复杂？想服务端渲染，配置路由麻烦？不，不要焦虑，这里有一个方案，一个可以快速开发出中后台产品方案,截图如下：
 
 <p align="center">
-  <img src="screenshot/Capture0.png">
+  <img src="screenshot/img0.png">
 </p>
 
 ## Modules:

@@ -1,0 +1,28 @@
+{
+  "name": "react-tmpl",
+  "version": "1.0.0",
+  "description": "React Template project with reactjs,antd,Material-UI,and next.js",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/havefive/react-tmpl.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/havefive/react-tmpl/issues"
+  },
+  "homepage": "https://github.com/havefive/react-tmpl#readme",
+  "dependencies": {
+    "antd": "^2.8.3",
+    "axios": "^0.15.3",
+    "next": "^2.0.0",
+    "react": "^15.4.2",
+    "react-dom": "^15.4.2"
+  }
+}

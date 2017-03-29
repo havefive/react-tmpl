@@ -2,7 +2,11 @@
 
 React Template project with reactjs,antd,Material-UI,and next.js
 
-一个可以快速进行基于react项目开发的模版工程，特点是：服务端渲染，无需配置路由，可以快速开发出中后台产品。
+基于react项目开发复杂？想服务端渲染，配置路由麻烦？不，不要焦虑，这里有一个方案，一个可以快速开发出中后台产品方案,截图如下：
+
+<p align="center">
+  <img src="screenshot/Capture0.png">
+</p>
 
 ## Modules:
 

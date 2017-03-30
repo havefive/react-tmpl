@@ -2,7 +2,8 @@
  * Created by lizhaocai on 2017/3/27.
  */
 import Head from 'next/head'
-import {message,Button} from 'antd'
+import Button from 'antd/lib/button'
+import message from 'antd/lib/message'
 import React from 'react'
 import axios from 'axios'
 
@@ -11,7 +12,7 @@ class Abutton extends React.Component{
     state = { loading: false }
     getData = () => {
         this.setState({
-            loading: true,
+            loading: true
         });
         var that = this
         axios.get('/user/1').then(function (response) {

@@ -6,21 +6,33 @@ import {message,Button} from 'antd'
 import React from 'react'
 import axios from 'axios'
 
-const getData = () => {
-    axios.get('/user/1').then(function (response) {
-        console.log(response)
-        message.info('This is a normal message');
-    })
-    .catch(function (error) {
-        console.log(error)
-        message.error('This is a error message');
-    })
-};
-
 //Ajaxbutton
 class Abutton extends React.Component{
+    state = { loading: false }
+    getData = () => {
+        this.setState({
+            loading: true,
+        });
+        var that = this
+        axios.get('/user/1').then(function (response) {
+            console.log(response)
+            message.info('This is a normal message');
+            that.setState({
+                loading: false
+            });
+        })
+        .catch(function (error) {
+            console.log(error)
+            setTimeout (()=>{
+                that.setState({
+                    loading: false
+                });
+                message.error('This is a error message');
+            },2000);
+        })
+    };
     render(){
-        return <Button type="primary" onClick={getData}>axios get请求</Button>
+        return <Button type="primary" loading={this.state.loading} onClick={this.getData}>axios get请求</Button>
     }
 }
 

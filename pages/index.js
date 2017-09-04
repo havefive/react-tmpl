@@ -2,6 +2,7 @@
  * Created by lizhaocai on 2017/3/27.
  */
 import Head from 'next/head'
+import Link from 'next/link'
 import Button from 'antd/lib/button'
 import message from 'antd/lib/message'
 import React from 'react'
@@ -50,6 +51,7 @@ export default () => (
     <div className="div-center">
         <Button className="dib">antd normal button</Button>
         <Abutton></Abutton>
+        <Link href='/about'>关于</Link>
     </div>
 </div>
 )

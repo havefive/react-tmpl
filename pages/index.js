@@ -7,6 +7,7 @@ import Button from 'antd/lib/button'
 import message from 'antd/lib/message'
 import React from 'react'
 import axios from 'axios'
+import "antd/dist/antd.css";
 
 //Ajaxbutton
 class Abutton extends React.Component{
@@ -44,14 +45,13 @@ export default () => (
         <meta charSet='utf-8' />
         <title>My page title</title>
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
-        <link rel="stylesheet" href="/static/antd.min.css"></link>
     </Head>
     <style>{`.div-center{margin-top:50px;text-align:center}.dib{display:inline-block;margin-right:20px}`}</style>
     <h1 className="div-center"> Welcome use React-tmpl!</h1>
     <div className="div-center">
         <Button className="dib">antd normal button</Button>
         <Abutton></Abutton>
-        <Link href='/about'>关于</Link>
+        <Link href='/about'><a>关于</a></Link>
     </div>
 </div>
 )

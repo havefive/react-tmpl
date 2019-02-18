@@ -73,7 +73,6 @@ export default () => (
             <meta charSet='utf-8'/>
             <title>忘记密码</title>
             <meta name="viewport" content="initial-scale=1.0, width=device-width"/>
-            <link rel="stylesheet" href="/static/antd.min.css"></link>
             <link rel="stylesheet" href="/static/app.css"></link>
         </Head>
         <style>{`.div-center{margin-top:50px;text-align:center}.dib{display:inline-block;margin-right:20px}`}</style>
